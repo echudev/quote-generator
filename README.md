@@ -21,4 +21,4 @@ The api that I used in this project is free, it can be accessed from the followi
 
 ## Links
 
-- URL: https://echudev.github.io/random-quote/
+- URL: https://echudev.github.io/quote-generator/
