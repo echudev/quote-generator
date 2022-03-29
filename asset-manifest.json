@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/random-quote/static/css/main.5403cd7d.css",
-    "main.js": "/random-quote/static/js/main.ea21e6f5.js",
-    "index.html": "/random-quote/index.html",
-    "main.5403cd7d.css.map": "/random-quote/static/css/main.5403cd7d.css.map",
-    "main.ea21e6f5.js.map": "/random-quote/static/js/main.ea21e6f5.js.map"
+    "main.css": "/quote-generator/static/css/main.5403cd7d.css",
+    "main.js": "/quote-generator/static/js/main.ea21e6f5.js",
+    "index.html": "/quote-generator/index.html",
+    "main.5403cd7d.css.map": "/quote-generator/static/css/main.5403cd7d.css.map",
+    "main.ea21e6f5.js.map": "/quote-generator/static/js/main.ea21e6f5.js.map"
   },
   "entrypoints": [
     "static/css/main.5403cd7d.css",
