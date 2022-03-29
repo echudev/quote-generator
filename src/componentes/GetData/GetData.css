@@ -1,0 +1,36 @@
+.quote_container{
+    background-color: #00000071;
+    box-shadow: 1px 1px 10px #fc9fff56;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 15px;
+    max-width: 80%;
+}
+.quote {
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.37), -1px -1px 1px black, 1px -1px 1px rgba(0, 0, 0, 0.493), -1px 1px 1px rgba(0, 0, 0, 0.561);
+    font-size:1.3rem;
+    text-align:center;
+}
+
+.button_container {
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    margin:5px !important;
+}
+
+.Alert {
+    position: absolute;
+    right:-50px;
+    bottom:50px;
+    opacity:0;
+    transition: 0.5s !important;
+}
+.showAlert{
+    opacity:1;
+    transition: 0.2s !important;
+}
