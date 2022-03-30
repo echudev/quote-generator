@@ -34,3 +34,16 @@
     opacity:1;
     transition: 0.2s !important;
 }
+
+.hide {
+    opacity:0;
+    transition:.3s;
+}
+.goUp {
+    transform: translateY(-1000px);
+}
+.goDown {
+    transform: translateY(0px);
+    opacity:1;
+    transition:.7s;
+}

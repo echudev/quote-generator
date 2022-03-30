@@ -47,15 +47,30 @@ export default function GetData() {
         }, 1000);
     }
 
+    const [quoteClass, setQuoteClass] = useState ("quote_container");
+    const quoteEffect = () => {
+             setQuoteClass("quote_container hide");
+             setTimeout(() => {
+                 setQuoteClass("quote_container goUp");
+             }, 400);
+             setTimeout(() => {
+                setQuoteClass("quote_container goDown");
+            }, 1000);
+    }
+
+    const refreshOnClick = () => {
+        getRandomQuoteAxios();
+        quoteEffect();
+    }
 
     return (
         <>
-            <div className="quote_container">
+            <div className={quoteClass}>
                 <p className="quote">{dataAxios}</p>
             </div>
 
             <div className="button_container">
-                <Button variant="contained" color="secondary" className="button" onClick={getRandomQuoteAxios}>Refresh</Button>
+                <Button variant="contained" color="secondary" className="button" onClick={refreshOnClick}>Refresh</Button>
                 <Button variant="outlined" color="secondary" className="button" onClick={copyQuote}>Copy</Button>
                 <Alert severity="success"className={alertClassName}>Saved to Clipboard</Alert>
             </div>
